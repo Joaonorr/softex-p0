@@ -1,0 +1,2 @@
+# Este projeto não usa dependências de terceiros: roda com a biblioteca padrão do Python 3.10+.
+# Para instalar o comando `triagem` no ambiente virtual, use: pip install -e .

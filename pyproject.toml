@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "triagem-solicitacoes"
+version = "0.1.0"
+description = "Classifica solicitações (problema, dúvida, sugestão ou outro) e gera um resumo usando um LLM local."
+readme = "README.md"
+requires-python = ">=3.10"
+# Sem dependências de terceiros: apenas biblioteca padrão.
+dependencies = []
+
+[project.scripts]
+triagem = "triagem.cli:main"
+
+[tool.setuptools]
+packages = ["triagem"]
