@@ -1,0 +1,19 @@
+# Segredos e configuração local
+.env
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Artefatos Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Sistema operacional / editores
+.DS_Store
+.idea/
+.vscode/
